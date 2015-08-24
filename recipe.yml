@@ -1,0 +1,12 @@
+title: "Recipe Title"
+description: |
+  Long description here
+ingredients:
+- 1
+- 2
+- 3
+directions:
+- First
+- Second
+tags:
+- Recipe
