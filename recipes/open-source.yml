@@ -14,5 +14,5 @@ directions:
 - "Include in your solicitation a requirement for open-source software. If you have a preferred license, specify it in the solicitation. If not, give yourself the flexibility to choose a license at a later point."
 - "Make sure that your contractor holds to the open-source requirement, and require the contractor to provide all licenses for software dependencies as part of the deliverables." 
 snippets: "The Contractor shall develop all source code that should become property of the Government, for software deliverables which shall be made available by the contractor to the public as open source software, under the terms and conditions of a license determined or approved by the Government."
-ags:
+tags:
 - Open Source
