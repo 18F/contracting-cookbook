@@ -1,0 +1,21 @@
+markdown: kramdown
+name: Contracting Cookbook
+exclude:
+- CONTRIBUTING.md
+- README.md
+- LICENSE.md
+- node_modules
+- package.json
+- lib
+data_source: data
+google_analytics_ua: UA-48605964-19
+repos:
+- name: Contracting Cookbook
+  description: "Like Chef, but for Contracting"
+  url: https://github.com/18F/contracting-cookbook
+collections:
+  recipes:
+    directory: recipes
+    output: true
+sass:
+  sass_dir: assets/_scss

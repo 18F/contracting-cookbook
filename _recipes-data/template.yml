@@ -1,0 +1,13 @@
+title: "Recipe Title"
+description: |
+  Long description here
+ingredients:
+- Stuff
+directions:
+- First
+- Second
+authors: 
+- Author 1
+tags:
+- Recipe
+basename: 

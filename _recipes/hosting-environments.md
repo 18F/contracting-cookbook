@@ -1,0 +1,29 @@
+---
+layout: main
+permalink: /recipes/hosting-environments/
+---
+# Hosting Environments
+
+In almost every modern project, a software developer will develop an application on his or her computer ("locally") and will deploy the application into one or more "hosting environments." Normally, these environments allow the development team to accomplish certain goals, such as:
+* Development: to allow the team to build the application;
+* Testing: to make sure that the application performs as it is expected;
+* Staging: to make sure that the application is ready for production; and
+* Production: to allow end-users to access the applicaton.
+Historically, each environment would be separately "provisioned" and configured manually based on checklists or "scripts." This pattern is still very common. However, the modern pattern is to allow for "continuous deployment", to automate the provisioning of these environments and using configuration-management tools and practices to ensure parity between the different environments. Although there are many different tools used to achieve continuous deployment, the basic principle is that any changes needed made to the hosting environments should be automatically and reproducibly deployed across the hosting environments.
+One good way to ensure that your application's codebase is ready for continuous deployment is to specify that the application be a [12 Factor App](http://12factor.net/). In practice, this will require some effort on the part of your development team, but it will help ensure long-term sustainability of the application.  
+
+
+> The offeror shall ensure that the application meet the '12-factor application' methodology to ensure automated, reproducible deployments to multiple environments. The offeror shall deploy development, staging, and production environments within the Amazon Web Service Cloud provided by [agency].
+
+## Ingredients
+
+  Multiple servers
+
+  Configuration management tools (e.g., Puppet, Chef, Ansible)
+
+
+## Directions
+
+  Determine whether the offeror will deploy to infrastructure hosted by the government or on infrastructure hosted by the offeror.
+
+  To the extent that the government will ultimately host, ensure that the government's infrastructure-service provider can provide your development team with the ability to specify and use configuration management tools.

@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "make": "node lib/make.js"
+    "clean": "rm -f recipes/* && rm -rf _site",
+    "make": "node lib/make.js",
+    "build:recipes": "node lib/build.js",
+    "build": "npm run clean && npm run make && npm run build:recipes && jekyll build"
   },
   "dependencies": {
-  "js-yaml": "^3.4.2"
+    "js-yaml": "^3.4.2",
+    "liquid-node": "^2.6.0"
   }
 }

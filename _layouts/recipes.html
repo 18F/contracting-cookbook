@@ -1,0 +1,19 @@
+---
+layout: main
+permalink: /recipes/{{basename}}/
+---
+# {{title}}
+
+> {{snippets}}
+
+{{description}}
+
+## Ingredients
+{% for ingredient in ingredients %}
+  {{ingredient}}
+{% endfor %}
+
+## Directions
+{% for direction in directions %}
+  {{direction}}
+{% endfor %}

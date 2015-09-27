@@ -13,9 +13,13 @@
    "Ensure that your agency is prepared to manage short iterative, deployment of software."
   ],
   "snippets": "The contractor shall use agile management best practices (e.g., story-point estimation, velocity measurement) for estimating, planning, managing risk, and communicating status, to enable the effective management of the project team, along with user and product-owner expectations as to what will be done and by when. The process should also enable immediate course corrections when the team isn’t performing at the highest levels possible, or if project priorities shift; and maximize the likelihood of overall project success in terms of cost, schedule, quality, and value. The contractor and product owner shall define and adopt user-acceptance criteria for user stories.",
+  "authors": [
+   "vzvenyach"
+  ],
   "tags": [
    "agile"
-  ]
+  ],
+  "basename": "agile-development"
  },
  {
   "title": "An API-First Data Portal",
@@ -30,10 +34,14 @@
    "Make sure that the API is well documented, so that it is easier to make future changes to the presentation interface (or adoption of alternative presentations)."
   ],
   "snippets": "Finally, [agency] requires that the source of data used in the site be the outbound API.",
+  "authors": [
+   "vzvenyach"
+  ],
   "tags": [
    "APIs",
    "data"
-  ]
+  ],
+  "basename": "api-first"
  },
  {
   "title": "Automated Testing",
@@ -52,45 +60,36 @@
    "When starting testing on a code base that has no tests or doesn't have enough test, be practical. It can be an overwhelming exercise in boiling the ocean to try to get everything under test. Instead focus on putting tests around anything that is changing. As features, bugs and refactorings become necessary, put all the code that you touch under test. Test coverage can be determined with freely available test coverage tools, available in most languages.",
    "To ensure that your tests have the maximum impact for your project, work with a continuous integration server. There are hosted services that provide this server for your tests and can be connected to your code repository for automatic runs. One example is [Travis CI](https://travis-ci.org/). Travis CI is also an open source project and can be hosted on your private servers."
   ],
-  "snippets": null,
+  "snippets": "",
+  "authors": [
+   "baccigalupi",
+   "vzvenyach"
+  ],
   "tags": [
    "Unit Testing",
    "Integration Testing"
-  ]
- },
- {
-  "title": "The Cloud",
-  "description": "According to the [NIST definition of \"cloud\"](http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf): \n> Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.\nTraditionally from the government's perspective, the most attractive feature of the cloud is that it is \"on-demand.\" If you have an application that requires a new server, the cloud should make it trivial to simply \"spin up\" a new server. Similarly, if you have an existing server, but you need to duplicate it to respond to significant \"load\" on the server, the cloud should make it trivial to spin up a copy of that server. This dynamic quality of the cloud enables entirely different software development/deployment patterns from those that existed before the cloud.\nThere are 3 common \"service models\" for cloud products: Infrastructure as a Service (IaaS), Platform as a Service (Paas), and Software as a Service (SaaS). Depending on the agency's needs, an agency will need to buy multiple cloud products within each service model.\n",
-  "ingredients": [
-   "Stuff"
   ],
-  "directions": [
-   "Stuff"
-  ],
-  "snippets": "",
-  "tags": [
-   "cloud"
-  ]
+  "basename": "automated-testing"
  },
  {
   "title": "Continuous Deployment",
-  "description": "[Play 10](https://playbook.cio.gov/#play10) of the US Digital Services Playbook is to \"[a]utomate testing and deployments.\" As discussed in \"test-driven development,\" it is imperative to ensure continuous integration. But equally important is ensuring continous deployment.\n\nAs a practical matter, implementing continuous deployment is more of a workflow pattern than a specific toolset. The general premise of continuous deployment is that an application should be able to automatically deploy--regularly throughout the development process--into multiple, nearly identical environments. The advantage of continuous deployment is that \n",
+  "description": "[Play 10](https://playbook.cio.gov/#play10) of the US Digital Services Playbook is to \"[a]utomate testing and deployments.\" As discussed in \"Automated Testing,\" it is imperative to ensure continuous integration. But equally important is ensuring continous deployment.\nAs a practical matter, implementing continuous deployment is more of a workflow pattern than a specific toolset. The general premise of continuous deployment is that an application should be able to automatically deploy--regularly throughout the development process--into multiple, nearly identical environments. The advantage of continuous deployment is that a developer should be able to make application-level changes without worrying about the overhead of deploying those changes into various environments (see \"Hosting Environments\").\nThere are many different ways to achieve continuous deployment (e.g., build packs, container-based deployments, etc.), but the central requirement is to ensure no-downtime, automated deployments into a given host environment based on changes to the application's codebase.\n",
   "ingredients": [
-   "A requirement for new software deliverables",
-   "One or more publicly available source-code repositories",
-   "A preferred open-source license (18F uses CC0)"
+   "Host environments",
+   "Application-level source control",
+   "Automated testing"
   ],
   "directions": [
-   "Pre-heat.",
-   "Do some market research to determine whether or not there are open-source solutions available *before* you buy or build. Using pre-existing open-source libraries is a best practice, it's delightful to improve or support an existing open-source library.",
-   "Make sure that your vendors understand, whether during an RFI or industry day, that open-source software is important for your project.",
-   "Include in your solicitation a requirement for open-source software. If you have a preferred license, specify it in the solicitation. If not, give yourself the flexibility to choose a license at a later point.",
-   "Make sure that your contractor holds to the open-source requirement, and require the contractor to provide all licenses for software dependencies as part of the deliverables."
+   null
   ],
-  "snippets": "The Contractor shall develop all source code that should become property of the Government, for software deliverables which shall be made available by the contractor to the public as open source software, under the terms and conditions of a license determined or approved by the Government.",
+  "snippets": "",
+  "authors": [
+   "vzvenyach"
+  ],
   "tags": [
-   "Open Source"
-  ]
+   "continuous deployment"
+  ],
+  "basename": "continuous-deployment"
  },
  {
   "title": "Hosting Environments",
@@ -108,7 +107,27 @@
    "continuous deployment",
    "agile",
    "hosting"
-  ]
+  ],
+  "basename": "hosting-environments"
+ },
+ {
+  "title": "Migrating to the Cloud",
+  "description": "According to the [NIST definition of \"cloud\"](http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf): \n> Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.\nTraditionally from the government's perspective, the most attractive feature of the cloud is that it is \"on-demand.\" If you have an application that requires a new server, the cloud should make it trivial to simply \"spin up\" a new server. Similarly, if you have an existing server, but you need to duplicate it to respond to significant \"load\" on the server, the cloud should make it trivial to spin up a copy of that server. This dynamic quality of the cloud enables entirely different software development/deployment patterns from those that existed before the cloud.\nThere are 3 common \"service models\" for cloud products: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Depending on the agency's needs, an agency will need to buy multiple cloud products within each service model. For the most part, IaaS and SaaS (less so for PaaS) are largely \"commodity\" offerings in the sense that costs and services are largely fixed by market conditions. Nevertheless, defining an agency's requirements is often quite difficult, because the cloud fundamentally affects the deployment patterns used by the program office. As such, 18F generally advises agencies to adopt an [phased, incremental approach to \"cloud migration\"](https://18f.gsa.gov/2015/06/22/avoiding-cloudfall/), focusing on buying smaller increments of infrastucture early on and expanding based on the agency's deployment needs.\n",
+  "ingredients": [
+   "[FedRAMP](https://www.fedramp.gov/)"
+  ],
+  "directions": [
+   "Before buying cloud services, familiarize yourself with FedRAMP, including systems that have received a FedRAMP approved ATO (Authority to Operate).",
+   "Develop an agency-specific framework for a phased approach to cloud migration. In doing so, take advantage of existing contract vehicles and micropurchase thresholds for discovery phases."
+  ],
+  "snippets": "",
+  "authors": [
+   "vzvenyach"
+  ],
+  "tags": [
+   "cloud"
+  ],
+  "basename": "migrating-to-the-cloud"
  },
  {
   "title": "Modular procurement and modular design",
@@ -127,7 +146,8 @@
   "tags": [
    "modular design",
    "FITARA"
-  ]
+  ],
+  "basename": "modular-design"
  },
  {
   "title": "Open Source Software",
@@ -147,7 +167,8 @@
   "snippets": "The Contractor shall develop all source code that should become property of the Government, for software deliverables which shall be made available by the contractor to the public as open source software, under the terms and conditions of a license determined or approved by the Government.",
   "tags": [
    "Open Source"
-  ]
+  ],
+  "basename": "open-source"
  },
  {
   "title": "Source Control",
@@ -162,23 +183,15 @@
    "Learn your source control tool. Both recommended tools are open source with great tutorials and community support. You can get rapid benefits without having to fully know your tool.",
    "Create a central repository to act and the source of truth. 18F uses git as a tool and hosts repositories via [Github](https://github.com). Mercurial repositories can be likewise hosted on the service [Bitbucket](https://bitbucket.org/). It is possible to roll your own repository host on a server, but it is likely that the laws governing your digital content allow source control hosting via a cloud service."
   ],
+  "authors": [
+   "baccigalupi",
+   "vzvenyach"
+  ],
+  "snippets": "",
   "tags": [
    "Source Control"
-  ]
- },
- {
-  "title": "Recipe Title",
-  "description": "Long description here\n",
-  "ingredients": [
-   "Stuff"
   ],
-  "directions": [
-   "First",
-   "Second"
-  ],
-  "tags": [
-   "Recipe"
-  ]
+  "basename": "source-control"
  },
  {
   "title": "User-Centered Design",
@@ -190,8 +203,12 @@
    "Stuff"
   ],
   "snippets": "",
+  "authors": [
+   "vzvenyach"
+  ],
   "tags": [
    "Open Source"
-  ]
+  ],
+  "basename": "user-centered-design"
  }
 ]
