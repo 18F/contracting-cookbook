@@ -1,6 +1,6 @@
 title: "Automated Testing"
 description: |
-  "The [US Digital Services playbook](https://playbook.cio.gov) recommends having automated tests for your code base. While manual testing of code can be a good process, automated tests ensure greater code stability.
+  The [US Digital Services playbook](https://playbook.cio.gov) recommends having automated tests for your code base. While manual testing of code can be a good process, automated tests ensure greater code stability.
   
   Acceptance test are a type of automated test that encapsulate a feature from the end-user's point of view. For example, a web application will have automated acceptance tests for user login. Acceptance tests are executed in a real browser that is coded to execute user input. On the other end of the scale are unit tests which test detailed input, output and side-effects for smallest, most isolated modules of code. In between these extremes are functional or integration tests which test the interactions between more than one unit of code. Naming of test types is inconsistent across the industry, and sometimes you will hear 'acceptance' and 'integration' tests used interchangeably.
   
@@ -8,7 +8,7 @@ description: |
   
   Running tests locally is a great tool for engineers, but the entire project benefits when tests are run after each commit to the master repository. Continuous integration servers provide this kind of project level safety net.
   
-  Almost every programming language has freely available, open-source testing frameworks. In addition, there are code coverage tools that calculate how well the tests cover the code."
+  Almost every programming language has freely available, open-source testing frameworks. In addition, there are code coverage tools that calculate how well the tests cover the code.
 ingredients:
 - Testable code
 - A testing framework for your language
