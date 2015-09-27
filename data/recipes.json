@@ -29,7 +29,7 @@
    "Once you have an API, ensure that your presentation interface is built using the API. Expect that, as the presentation interface matures, there will be a need to optimize and refine the design of the API itself. This is a good, and natural result of an API-First approach.",
    "Make sure that the API is well documented, so that it is easier to make future changes to the presentation interface (or adoption of alternative presentations)."
   ],
-  "snippets": "Finally, Treasury requires that the source of data used in the site be the outbound API.",
+  "snippets": "Finally, [agency] requires that the source of data used in the site be the outbound API.",
   "tags": [
    "APIs",
    "data"
@@ -52,6 +52,7 @@
    "When starting testing on a code base that has no tests or doesn't have enough test, be practical. It can be an overwhelming exercise in boiling the ocean to try to get everything under test. Instead focus on putting tests around anything that is changing. As features, bugs and refactorings become necessary, put all the code that you touch under test. Test coverage can be determined with freely available test coverage tools, available in most languages.",
    "To ensure that your tests have the maximum impact for your project, work with a continuous integration server. There are hosted services that provide this server for your tests and can be connected to your code repository for automatic runs. One example is [Travis CI](https://travis-ci.org/). Travis CI is also an open source project and can be hosted on your private servers."
   ],
+  "snippets": null,
   "tags": [
    "Unit Testing",
    "Integration Testing"
