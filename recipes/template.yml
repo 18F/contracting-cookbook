@@ -2,9 +2,7 @@ title: "Recipe Title"
 description: |
   Long description here
 ingredients:
-- 1
-- 2
-- 3
+- Stuff
 directions:
 - First
 - Second

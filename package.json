@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "make": "node make.js"
+  },
+  "dependencies": {
+  "js-yaml": "^3.4.2"
+  }
+}
