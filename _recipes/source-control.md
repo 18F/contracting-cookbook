@@ -6,9 +6,11 @@ permalink: /recipes/source-control/
 
 > 
 
-"The [US Digital Services playbook](https://playbook.cio.gov) recommends using a 'source code version control system' while developing digital services. Source control, also known as version control, is a tool that tracks history of changes made to code base. History is recorded via a series of commits. Source control systems usually allow rolling back to previous states, which can be essential when bad code is commited to the code base accidentally. More information on the benefits and features of source control systems are described on [Wikipedia](https://en.wikipedia.org/wiki/Version_control).
+The [US Digital Services playbook](https://playbook.cio.gov) recommends using a 'source code version control system' while developing digital services. Source control, also known as version control, is a tool that tracks history of changes made to code base. History is recorded via a series of commits. Source control systems usually allow rolling back to previous states, which can be essential when bad code is commited to the code base accidentally. More information on the benefits and features of source control systems are described on [Wikipedia](https://en.wikipedia.org/wiki/Version_control).
+
 In addition to providing rollback capabilities, source control is important for code bases with multiple contributors. Each commit encapsulates the intent of the change to the code base, and when two contributors edit the same file or even the same line, the version control system will recognize the conflict, preventing lost work.
-Source control tools are also heavily used in modern software engineering as an integration point for other important tools. A commit to the master repository can trigger automated test builds, static analysis or even a deploy."
+
+Source control tools are also heavily used in modern software engineering as an integration point for other important tools. A commit to the master repository can trigger automated test builds, static analysis or even a deploy.
 
 
 ## Ingredients
