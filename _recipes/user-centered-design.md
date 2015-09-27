@@ -4,16 +4,16 @@ permalink: /recipes/user-centered-design/
 ---
 # User-Centered Design
 
+> 
+
 Stuff
 
 
-> 
-
 ## Ingredients
 
-  Stuff
+  * Stuff
 
 
 ## Directions
 
-  Stuff
+  * Stuff
