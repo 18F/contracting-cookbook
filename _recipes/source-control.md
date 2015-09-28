@@ -4,7 +4,7 @@ permalink: /recipes/source-control/
 ---
 # Source Control
 
-> 
+> The contractor shall manage all assets (e.g., source code, automated tests, documentation, configuration files, etc.) using a 'source code version control system' and publish the assets to a repository owned by the government.
 
 The [US Digital Services playbook](https://playbook.cio.gov) recommends using a 'source code version control system' while developing digital services. Source control, also known as version control, is a tool that tracks history of changes made to code base. History is recorded via a series of commits. Source control systems usually allow rolling back to previous states, which can be essential when bad code is commited to the code base accidentally. More information on the benefits and features of source control systems are described on [Wikipedia](https://en.wikipedia.org/wiki/Version_control).
 

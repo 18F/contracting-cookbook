@@ -16,7 +16,7 @@ directions:
 authors: 
 - baccigalupi
 - vzvenyach
-snippets: ""
+snippets: "The contractor shall manage all assets (e.g., source code, automated tests, documentation, configuration files, etc.) using a 'source code version control system' and publish the assets to a repository owned by the government."
 tags:
 - Source Control
 basename: source-control
