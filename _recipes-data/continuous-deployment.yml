@@ -11,7 +11,7 @@ ingredients:
 - Automated testing 
 directions:
 - 
-snippets: ""
+snippets: "The contractor shall use software configuration/deployment automation tools (e.g., Capistrano, Chef, Docker), so that developers can deploy code changes to the target environment (e.g., staging) with the issuance of a single command."
 authors: 
 - vzvenyach
 tags:

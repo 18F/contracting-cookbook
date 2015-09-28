@@ -21,7 +21,7 @@ directions:
 - "Acceptance tests tend to take a long time to run, while unit tests should happen in milliseconds. Write many unit tests, some functional tests and few acceptance tests. Test suites that invert these ratios become dauntingly slow, frustrating engineers."
 - "When starting testing on a code base that has no tests or doesn't have enough test, be practical. It can be an overwhelming exercise in boiling the ocean to try to get everything under test. Instead focus on putting tests around anything that is changing. As features, bugs and refactorings become necessary, put all the code that you touch under test. Test coverage can be determined with freely available test coverage tools, available in most languages."
 - "To ensure that your tests have the maximum impact for your project, work with a continuous integration server. There are hosted services that provide this server for your tests and can be connected to your code repository for automatic runs. One example is [Travis CI](https://travis-ci.org/). Travis CI is also an open source project and can be hosted on your private servers."
-snippets: ""
+snippets: "The contractor shall use test-driven development practices (TDD). TDD helps ensure increased protection from defects, better code quality, and tests serving as substitutes for other forms of documentation. There shall be sufficient test coverage to ensure that new user stories can be added without doubts about whether earlier features are affected. Testing shall include automated unit tests, integration tests, functional testing, and regression testing."
 authors: 
 - baccigalupi
 - vzvenyach

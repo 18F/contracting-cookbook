@@ -4,7 +4,7 @@ permalink: /recipes/continuous-deployment/
 ---
 # Continuous Deployment
 
-> 
+> The contractor shall use software configuration/deployment automation tools (e.g., Capistrano, Chef, Docker), so that developers can deploy code changes to the target environment (e.g., staging) with the issuance of a single command.
 
 [Play 10](https://playbook.cio.gov/#play10) of the US Digital Services Playbook is to "[a]utomate testing and deployments." As discussed in "Automated Testing," it is imperative to ensure continuous integration. But equally important is ensuring continous deployment.
 

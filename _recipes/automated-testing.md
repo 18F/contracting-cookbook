@@ -4,7 +4,7 @@ permalink: /recipes/automated-testing/
 ---
 # Automated Testing
 
-> 
+> The contractor shall use test-driven development practices (TDD). TDD helps ensure increased protection from defects, better code quality, and tests serving as substitutes for other forms of documentation. There shall be sufficient test coverage to ensure that new user stories can be added without doubts about whether earlier features are affected. Testing shall include automated unit tests, integration tests, functional testing, and regression testing.
 
 The [US Digital Services playbook](https://playbook.cio.gov) recommends having automated tests for your code base. While manual testing of code can be a good process, automated tests ensure greater code stability.
 
