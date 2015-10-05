@@ -34,6 +34,7 @@ layout: homepage
   <div class="usa-grid">
     <h2>Introducing the Contracting Cookbook</h2>
     <p>The goal of the digital contracting cookbook is to provide agencies with information and suggestions about how to acquire digital services, based on the authors' experience. The cookbook is not a "how-to," in the sense that agencies' requirements are different and there are multiple ways to achieve success.</p>
+    <p>The <a href="https://playbook.cio.gov/techfar/" target="_blank">TechFAR Handbook</a> is yet another handy resource.  Part of the <a href="https://playbook.cio.gov/" target="_blank">Digital Services Playbook</a>, the TechFAR Handbook expands on software development strategies and procurement insights.  Consider both of these resources as additional helpful guides for your use.
     <h2>Contents</h2>
     <ul>
     {% for recipe in site.data.recipes order:ascending%}
