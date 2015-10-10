@@ -23,7 +23,7 @@ layout: homepage
       </nav>
       <div class="usa-banner-content" id="main-content">
         <h1>Digital Contracting Cookbook</h1>
-        <h2 class="usa-font-lead">Like Chef, but for Contracting...</h2>
+        <h2 class="usa-font-lead">Making Digital Service Acquisition Delectable</h2>
       </div>
     </div>
   </section>
