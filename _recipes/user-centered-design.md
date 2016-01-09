@@ -2,23 +2,19 @@
 layout: main
 permalink: /recipes/user-centered-design/
 ---
-# User-Centered Design
+# User-centered design
 
 > Offeror shall employ user‐centered design principles and integrate continuous user‐research and usability testing into all aspects of the system.  
 
-One of the core principles of 18F's work is [user-centered design](http://www.usability.gov/what-and-why/user-centered-design.html). Although the concept of user-centered design is deceptively simple--software should be built to meet end users' goals--the practice requires substantial effort and expertise. Within government, it is all too common for program offices (and contracting officers) to make assumptions about how users will interact with a particular piece of software and to bake those assumptions into "requirements." The unfortunate reality is that users rarely interact with systems precisely as we predict they might, which is why so much federal IT suffers from usability problems.
+One of the core principles of 18F's work is [user-centered design](http://www.usability.gov/what-and-why/user-centered-design.html). Although the concept of user-centered design is deceptively simple — software should be built to meet end users' goals — the practice requires substantial effort and expertise. Within government, it's all too common for program offices (and contracting officers) to make assumptions about how users will interact with a particular piece of software and to bake those assumptions into "requirements." The unfortunate reality is that users rarely interact with systems precisely as we predict they might, which is why so much federal IT suffers from usability problems.
 
 By embedding user-centered-design principles in a procurement, an agency can take steps toward ensuring that the end-product is more useful. At a minimum, before development commences, the government should ensure that the team has conducted sufficient [discovery through one or more methods](https://methods.18f.gov) to help determine the goals, needs, opportunities, and constraints of users relying on the systems. Ideally, user-centered design should be budgeted-for and integrated in the product development through the duration of the product's development.
-
 
 ## Ingredients
 
   * Users. (Probably more users than you're used to.)
-
-  * A willingness to emphathize with your users.
-
+  * A willingness to empathize with your users.
   * [Research Methods](https://methods.18f.gov/)
-
 
 ## Directions
 
