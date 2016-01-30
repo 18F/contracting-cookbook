@@ -2,30 +2,27 @@
 layout: main
 permalink: /recipes/source-control/
 ---
-# Source Control
+# Source control
 
 > The contractor shall manage all assets (e.g., source code, automated tests, documentation, configuration files, etc.) using a 'source code version control system' and publish the assets to a repository owned by the government.
 
-The [US Digital Services playbook](https://playbook.cio.gov) recommends using a 'source code version control system' while developing digital services. Source control, also known as version control, is a tool that tracks history of changes made to code base. History is recorded via a series of commits. Source control systems usually allow rolling back to previous states, which can be essential when bad code is commited to the code base accidentally. More information on the benefits and features of source control systems are described on [Wikipedia](https://en.wikipedia.org/wiki/Version_control).
+The [US Digital Services playbook](https://playbook.cio.gov) recommends using a "source code version control system" while developing digital services. Source control, also known as version control, is a tool that tracks the history of changes made to a code base. History is recorded via a series of commits. Source control systems usually allow rolling back to previous states, which can be essential when bad code is commited to the code base accidentally. More information on the benefits and features of source control systems are described on [Wikipedia](https://en.wikipedia.org/wiki/Version_control).
 
 In addition to providing rollback capabilities, source control is important for code bases with multiple contributors. Each commit encapsulates the intent of the change to the code base, and when two contributors edit the same file or even the same line, the version control system will recognize the conflict, preventing lost work.
 
-Source control tools are also heavily used in modern software engineering as an integration point for other important tools. A commit to the master repository can trigger automated test builds, static analysis or even a deploy.
-
+Source control tools are also heavily used in modern software engineering as an integration point for other important tools. A commit to the master repository can trigger automated test builds, static analysis, or even a deploy.
 
 ## Ingredients
 
   * A code base
-
   * A source control tool. Recommended source control tools are [git](https://git-scm.com) and [mercurial](https://mercurial.selenic.com). Both are [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) source control systems.
-
   * A central repository to act as the source of truth for the code base
 
 
 ## Directions
 
-  * Preheat - Prepare your repository for source control: Some binary files are not appropriate for source control. In the case of large binary files, the file changes cannot be comprehended easily by mere mortals, so recording the differences in the files looses its meaning. Also, binary files are often very large, requiring massive transfer bandwidth. Binaries are appropriate when an integral part of the history. For example, many images are relevant and changing resources in a web application. Omiting them from the repository would cause more pain than gain. Careful thought should go into what should be in and out of the repository. Source control tools allow ignoring files.
+  * Preheat — Prepare your repository for source control: Some binary files are not appropriate for source control. In the case of large binary files, the file changes cannot be comprehended easily by mere mortals, so recording the differences in the files looses its meaning. Also, binary files are often very large, requiring massive transfer bandwidth. Binaries are appropriate when they're an integral part of the history. For example, many images are relevant and changing resources in a web application. Omiting them from the repository would cause more pain than gain. Careful thought should go into what should be in and out of the repository. Source control tools allow you to ignore files.
 
-  * Learn your source control tool. Both recommended tools are open source with great tutorials and community support. You can get rapid benefits without having to fully know your tool.
+  * Learn your source control tool. Both recommended tools are open source with great tutorials and community support. You can get rapid benefits without having to know every single in and out of your tool.
 
-  * Create a central repository to act and the source of truth. 18F uses git as a tool and hosts repositories via [Github](https://github.com). Mercurial repositories can be likewise hosted on the service [Bitbucket](https://bitbucket.org/). It is possible to roll your own repository host on a server, but it is likely that the laws governing your digital content allow source control hosting via a cloud service.
+  * Create a central repository to act as the source of truth. 18F uses git as a tool and hosts repositories via [GitHub](https://github.com). Mercurial repositories can be likewise hosted on the service [Bitbucket](https://bitbucket.org/). It's possible to roll your own repository host on a server, but it's likely that the laws governing your digital content allow source control hosting via a cloud service.
