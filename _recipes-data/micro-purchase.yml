@@ -1,0 +1,34 @@
+title: "A micro-purchase for custom code"
+description: |
+  A recipe for micro-purchasing custom, open source, code.
+
+  Micro-purchasing is a new way to procure open source software for $3,500 or less.
+
+  By shrinking requirements and by paying $3,500 or less, government buyers can procure much more iteratively and with less risk.
+
+  Micro-purchases can take just days from inception to delivery.
+ingredients:
+- A purchase card holder with micro-purchase authority from Subpart 13.2 of the FAR (https://www.acquisition.gov/far/html/Subpart%2013_2.html)
+- A code repository with an open source license
+- A software application stored in the code repository
+- An automated test suite for the software application
+- A notice in the code repository that all pull requests and contributions become open source
+- A small software requirement
+- Access to a micro-purchase platform (e.g. https://github.com/18f/micropurchase). Ideally the platform should require that vendors be registered in SAM.gov in order to place bids.
+directions:
+- "Discuss this idea with your organization's purchase card ("p-card") holder."
+- "Define the software requirements. Ideally the requirements are small and can be described to a colleague in fifteen minutes or less."
+- "Define general acceptance criteria. These should include things that are not specific to the application. Ideally, general acceptance criteria can be tested automatically. For example, ensuring that any new code does not cause the test suite to fail ensures that the requirements can be merged in with a high degree of confidence."
+- "Define application-specific acceptance criteria. Although there is room for subjectivity, the criteria should be as objective and clear as possible. The goal for these criteria is to give potential vendors (and the winning vendor), the opportunity to self-evaluate if their code meets the requirements. The ability to reliably self-evaluate code is conducive to a less risky, more iterative approach."
+- "Publish the requirements and acceptance criteria to the micro-purchase platform. Include in the description the directors that all delivered code must be in the form of a pull request to the code repository. Among other things, this ensures that the delivered code falls in the public domain (or under an open source license)."
+- "Wait for vendors to bid using the micro-purchase platform."
+- "When the auction ends (two business days should be enough time), inform the winning bidder that they won the auction and tell them when the delivery deadline expires. Offer the vendor the opportunity to submit finished or unfinished code early so that you can provide feedback."
+- "When the delivery deadline expires, the vendor should have submitted a pull request. Evaluate that pull request according the published criteria. Defer to the vendor in the case of any ambiguities."
+- "If the delivered requirement meets the criteria, ask the vendor for a link to a credit card form that the government can use to pay them. If they don't have a form, you may point the vendor to https://github.com/cwarden/pay, which is an open source, easy-to-deploy Stripe.com checkout page. Offer to work with the vendor if they still need help setting up the form. When the vendor sends you a link to the form, instruct your organization's p-card holder to pay the vendor the amount of their winning bid."
+- "If the delivered requirements does not meet the criteria, politely and clearly outline where and how the delivery fell short. Again, be sure to defer to the vendor in the case of any ambiguities. If even after such deference, the delivery does not meet the requirements, publish the explanation as a response to the pull request."
+authors:
+- Alan deLevie
+tags:
+- micro-purchase
+- open-source
+basename: micro-purchase
